@@ -1,5 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400&display=swap');
+
+/* reset CSS */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+/* body {
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+} */
+
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+#main {
+  
+}
+
+#header {
+  height: 46px;
+  background-color: rgb(0, 0, 0);
+}
+
+#nav, .sub-nav {
+  list-style-type: none;
+}
+
+#nav > li {
+  display: inline-block;
+}
+
+#nav li {
+  position: relative;
+}
+
+#nav > li > a {
+  color: white;
+  text-transform: uppercase;
+}
+
+#nav li a {
+  text-decoration: none;
+  line-height: 46px;
+  padding: 0 24px;
+  display: block;
+}
+
+#nav > li:hover .sub-nav {
+  display: block;
+}
+
+#nav .sub-nav li:hover a,
+#nav > li:hover > a {
+  background-color: #ccc;
+  color: black;
+  /* transition: 0.5s; */
+}
+
+#nav .sub-nav {
+  display: none;
+  top: 100%;
+  left: 0;
+  min-width: 160px;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#nav .sub-nav a {
+  color: black;
+  line-height: 38px;
+}
+
+#slider {
+  /* min-height: 500px;
+  background-color: #333; */
+}
+
+#content {
+  
+}
+
+#footer {
+  
 }
