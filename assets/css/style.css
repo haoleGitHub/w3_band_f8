@@ -20,7 +20,7 @@ html {
 }
 
 #main {
-  
+  position: relative;
 }
 
 #header {
@@ -113,9 +113,9 @@ html {
 }
 
 #content {
-  
+  position: absolute;
 }
 
 #footer {
-  
+  position: absolute;
 }
