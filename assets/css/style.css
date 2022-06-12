@@ -7,20 +7,14 @@
   box-sizing: border-box;
 }
 
-/* body {
-  font-family: 'Poppins', sans-serif;
-  height: 100vh;
-  width: 100vw;
-  background-color: black;
-} */
-
 html {
   font-family: 'Poppins', sans-serif;
+  /* height: 100vh; */
   /* height: 1000px; */
 }
 
 #main {
-  position: relative;
+  /* position: relative; */
 }
 
 #header {
@@ -30,6 +24,7 @@ html {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 1;
 }
 
 #nav {
@@ -107,9 +102,29 @@ html {
 }
 
 #slider {
-  height: 500px;
+  position: relative;
   margin-top: 46px;
-  background-color: #333;
+  padding-top: 50%;
+  background: url('/assets/img/chicago.jpg') top center / cover no-repeat;
+}
+
+#slider .text-content {
+  width: 100%;
+  position: absolute;
+  bottom: 47px;
+  color: white;
+  text-align: center;
+
+}
+
+#slider .text-heading {
+  font-weight: 400;
+  font-size: 24px;
+}
+#slider .text-description {
+  font-size: 15px;
+  margin-top: 25px;
+  font-weight: 700;
 }
 
 #content {
