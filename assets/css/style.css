@@ -9,14 +9,17 @@
 
 html {
   font-family: 'Poppins', sans-serif;
-  /* height: 100vh; */
-  /* height: 1000px; */
 }
 
-#main {
-  /* position: relative; */
+.clear {
+  clear: both;
 }
 
+.text-white {
+  color: white !important;
+}
+
+/* header */
 #header {
   height: 46px;
   background-color: rgb(0, 0, 0);
@@ -101,6 +104,7 @@ html {
   font-size: 20px;
 }
 
+/* slider */
 #slider {
   position: relative;
   margin-top: 46px;
@@ -127,10 +131,7 @@ html {
   font-weight: 700;
 }
 
-#content {
-  /* position: absolute; */
-}
-
+/* content */
 #content .content-section {
   width: 800px;
   padding: 64px 0;
@@ -159,7 +160,118 @@ html {
   text-align: justify;
 }
 
+#content .members-list {
+  margin-top: 48px;
+}
 
+#content .member-item {
+  float: left;
+  width: calc(100% / 3);
+  text-align: center;
+}
+
+#content .member-name {
+  font-size: 15px; 
+}
+
+#content .member-img {
+  margin-top: 15px;
+  width: 154px;
+  border-radius: 4px;
+}
+
+/* tour section */
+.tour-section {
+  background-color: #000;
+}
+
+.ticket-list {
+  background-color: #fff;
+  list-style: none;
+  margin-top: 40px;
+}
+
+.ticket-list li {
+  color: #757575;
+  font-size: 15px;
+  padding: 11px 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.ticket-list .sold-out {
+  background-color: #f44336;
+  color: white;
+  margin-left: 16px;
+  padding: 3px 4px;
+}
+
+.ticket-list .quantity {
+ float: right;
+ width: 24px;
+ height: 24px;
+ background-color: #000;
+ color: white;
+ border-radius: 50%;
+ text-align: center;
+ line-height: 24px;
+}
+
+/* places section */
+.places-list {
+  margin: 32px -8px 48px;
+}
+
+.place-item {
+  float: left;
+  width: calc(100% / 3);
+  padding: 0 8px;
+}
+
+.place-img {
+  width: 100%;
+  display: block;
+}
+
+.place-img:hover {
+  opacity: 0.7;
+}
+
+.place-body {
+  padding: 16px;
+  font-size: 15px;
+  background-color: white;
+}
+
+.place-heading {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.place-time {
+  margin-top: 15px;
+  color: #757575;
+}
+
+.place-desc {
+  margin-top: 15px
+}
+
+.place-buy-btn {
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
+  padding: 11px 16px;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.place-buy-btn:hover {
+  color: #000;
+  background-color: #ccc;
+  transition: 0.3s;
+}
+
+/* footer */
 #footer {
   /* position: absolute; */
 }
