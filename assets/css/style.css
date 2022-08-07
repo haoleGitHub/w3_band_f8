@@ -11,6 +11,7 @@ html {
   font-family: 'Poppins', sans-serif;
 }
 
+/* common */
 .clear {
   clear: both;
 }
@@ -18,6 +19,31 @@ html {
 .text-white {
   color: white !important;
 }
+
+.text-center {
+  text-align: center !important;
+}
+
+.row {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.column {
+  float: left;
+  padding: 0 8px;
+}
+
+.col-third {
+  width: calc(100% / 3);
+}
+
+.col-half {
+  width: calc(100% / 2);
+}
+
+/* main */
+
 
 /* header */
 #header {
@@ -164,12 +190,6 @@ html {
   margin-top: 48px;
 }
 
-#content .member-item {
-  float: left;
-  width: calc(100% / 3);
-  text-align: center;
-}
-
 #content .member-name {
   font-size: 15px; 
 }
@@ -218,13 +238,8 @@ html {
 
 /* places section */
 .places-list {
-  margin: 32px -8px 48px;
-}
-
-.place-item {
-  float: left;
-  width: calc(100% / 3);
-  padding: 0 8px;
+  margin-top: 32px;
+  margin-bottom: 48px;;
 }
 
 .place-img {
