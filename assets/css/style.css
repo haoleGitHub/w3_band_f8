@@ -226,14 +226,14 @@ html {
 }
 
 .ticket-list .quantity {
- float: right;
- width: 24px;
- height: 24px;
- background-color: #000;
- color: white;
- border-radius: 50%;
- text-align: center;
- line-height: 24px;
+  float: right;
+  width: 24px;
+  height: 24px;
+  background-color: #000;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 24px;
 }
 
 /* places section */
