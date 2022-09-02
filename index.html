@@ -14,9 +14,9 @@
       <!-- begin nav -->
       <ul id="nav">
         <li><a href="#">Home</a></li>
-        <li><a href="#">Band</a></li>
-        <li><a href="#">Tour</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#band">Band</a></li>
+        <li><a href="#tour">Tour</a></li>
+        <li><a href="#contact">Contact</a></li>
         <li>
           <a href="#">
             More
@@ -45,7 +45,7 @@
 
     <div id="content">
       <!-- about section -->
-      <div class="content-section">
+      <div id="band" class="content-section">
         <h2 class="section-heading">THE BAND</h2>
         <p class="section-sub-heading">We love music</p>
         <p class="about-text">
@@ -66,13 +66,11 @@
             <p class="member-name">Name</p>
             <img src="./assets/img/topic/bandmember.jpg" class="member-img">
           </div>
-
-          <div class="clear"></div>
         </div>
       </div>
 
       <!-- tour section -->
-      <div class="tour-section">
+      <div id="tour" class="tour-section">
         <div class="content-section">
           <h2 class="section-heading text-white">TOUR DATES</h2>
           <p class="section-sub-heading text-white">Remember to book your tickets!</p>
@@ -90,7 +88,7 @@
                 <h3 class="place-heading">New York</h3>
                 <p class="place-time">Fri 27 Nov 2016</p>
                 <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                <button href="#" class="place-buy-btn js-buy-ticket">Buy Tickets</button>
+                <button href="#" class="btn js-buy-ticket">Buy Tickets</button>
               </div>
             </div>
 
@@ -100,7 +98,7 @@
                 <h3 class="place-heading">Paris</h3>
                 <p class="place-time">Sat 28 Nov 2016</p>
                 <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                <button href="#" class="place-buy-btn js-buy-ticket">Buy Tickets</button>
+                <button href="#" class="btn js-buy-ticket">Buy Tickets</button>
               </div>
             </div>
 
@@ -110,24 +108,66 @@
                 <h3 class="place-heading">San Francisco</h3>
                 <p class="place-time">Sun 29 Nov 2016</p>
                 <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                <button href="#" class="place-buy-btn js-buy-ticket">Buy Tickets</button>
+                <button href="#" class="btn js-buy-ticket">Buy Tickets</button>
               </div>
             </div>
-
-            <div class="clear"></div>
           </div>
         </div>
       </div>
 
       <!-- contact section -->
-      <div class="content-section">
+      <div id="contact" class="content-section">
         <h2 class="section-heading">CONTACT</h2>
         <p class="section-sub-heading">Fan? Drop a note!</p>
+
+        <div class="row contact-content">
+          <div class="column col-half contact-info">
+            <p><i class="ti-location-pin"></i>Chicago, US</p>
+            <p><i class="ti-mobile"></i>Phone: +84 121212</p>
+            <p><i class="ti-email"></i>Email: abcxyz@gmail.com</p>
+          </div>
+
+          <div class="column col-half contact-form">
+            <form action="">
+              <div class="row">
+                <div class="column col-half">
+                  <input type="text" placeholder="Name" required class="form-control">
+                </div>
+
+                <div class="column col-half">
+                  <input type="email" placeholder="Email" required class="form-control">
+                </div>
+              </div>
+
+              <div class="row mt-16">
+                <div class="column col-full">
+                  <input type="text" placeholder="Message" class="form-control">
+                </div>
+              </div>
+
+              <input class="btn pull-right mt-16" type="submit" value="SEND">
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="map-section">
+        <img src="./assets/img/topic/map.jpg" alt="map">
       </div>
     </div>
 
+    <!-- footer -->
     <div id="footer">
+      <div class="social-list">
+        <a href=""><i class="ti-facebook"></i></a>
+        <a href=""><i class="ti-instagram"></i></a>
+        <a href=""><i class="ti-pinterest"></i></a>
+        <a href=""><i class="ti-linkedin"></i></a>
+        <a href=""><i class="ti-youtube"></i></a>
+        <a href=""><i class="ti-twitter"></i></a>
+      </div>
 
+      <p class="copyright">Power by <a href="">w3.css</a></p>
     </div>
   </div>
 
